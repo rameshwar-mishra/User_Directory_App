@@ -34,7 +34,7 @@ val DarkSurface = Color(0xFF242323)  // Darker Gray (For Cards)
 val DarkOnSurface = Color(0xFFFFFFFF)  // White on Surface
 
 val DarkSecondary = Color(0xFFBBBBBB)  // Light Gray
-val DarkOnSecondary = Color(0xFF000000)  // Black on Secondary
+val DarkOnSecondary = Color(0xFF282727)  // Black on Secondary
 val DarkSecondaryContainer = Color(0xFF444444)  // Medium Gray Container
 val DarkOnSecondaryContainer = Color(0xFFFFFFFF)  // White Text inside Containers
 

@@ -1,5 +1,6 @@
 package com.example.userdirectory.screens
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -22,12 +23,16 @@ import com.example.userdirectory.reusablecomposable.CustomTextWithLabel
 
 @Composable
 fun SampleUser(
-    user : FetchedUserDataClass
+    user : FetchedUserDataClass,
+    onclick : () -> Unit
 ) {
     Card(
         elevation = CardDefaults.cardElevation(4.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
         modifier = Modifier
+            .clickable{
+                onclick()
+            }
             .padding(bottom = 10.dp),
         shape = MaterialTheme.shapes.small
     ) {

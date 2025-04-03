@@ -5,10 +5,10 @@ data class FetchedUserDataClass(
     val name: String,
     val username: String,
     val email: String,
-    val address: Address, //automatic mapping by GSON of Company field
+    val address: Address,
     val phone: String,
     val website: String,
-    val company: Company  //automatic mapping by GSON of address field
+    val company: Company
 )
 data class Address(
     val street: String,
@@ -18,4 +18,10 @@ data class Address(
 )
 data class Company(
     val name: String
+)
+
+data class CreatedUserDataClass(
+    val name : String,
+    val email : String,
+    val phone : String
 )

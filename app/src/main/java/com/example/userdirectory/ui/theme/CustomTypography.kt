@@ -8,6 +8,7 @@ data class CustomTypography(
     val cardTitle: TextStyle,
     val searchPlaceholder: TextStyle,
     val customButtonText: TextStyle,
-    val customContentNotAvailableText : TextStyle
+    val customContentNotAvailableText : TextStyle,
+    val textStyleUserDetails : TextStyle
 )
 

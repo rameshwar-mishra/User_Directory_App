@@ -4,10 +4,18 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitInstance {
-    private const val BASE_URL = "https://jsonplaceholder.typicode.com/"
-    val api : UserApiInterface by lazy {
+    private const val jsonPlaceholder_URL = "https://jsonplaceholder.typicode.com/"
+    private const val reqRes_URL = "https://reqres.in/api/"
+    val jsonPlaceholderApi : UserApiInterface by lazy {
             Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(jsonPlaceholder_URL)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(UserApiInterface::class.java)
+    }
+    val reqResApi : UserApiInterface by lazy {
+        Retrofit.Builder()
+            .baseUrl(reqRes_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(UserApiInterface::class.java)

@@ -49,9 +49,14 @@ val customTypography = CustomTypography(
         fontSize = 18.sp
     ),
     customContentNotAvailableText = TextStyle(
-        fontFamily = FontFamily.Monospace ,
-        fontWeight = FontWeight.Medium,
-        fontSize = 30.sp
+        fontFamily = FontFamily.SansSerif ,
+        fontWeight = FontWeight.Bold,
+        fontSize = 35.sp
+    ),
+    textStyleUserDetails = TextStyle(
+        fontFamily = FontFamily.SansSerif,
+        fontWeight = FontWeight.Normal,
+        fontSize = 17.sp
     )
 )
 

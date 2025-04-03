@@ -4,7 +4,7 @@ User Directory is an Android application built using Jetpack Compose and Retrofi
 
 ## Features
 
-- Fetch user list from ReqRes API
+- Fetch user list from JsonPlaceholder API
 - Create a new user with Name, Email, and Phone Number
 - View user details
 - Input validation for Name, Email, and Phone fields

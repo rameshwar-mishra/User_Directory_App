@@ -22,7 +22,7 @@ User Directory is an Android application built using Jetpack Compose and Retrofi
 - **Mock APIs** - JSONPlaceholder and ReqRes API
 ## Download APK
 
-[User Directory APK] (https://github.com/rameshwar-mishra/User_Directory_App/releases/tag/v1.0)
+[User Directory APK](https://github.com/rameshwar-mishra/User_Directory_App/releases/tag/v1.0)
 
 ## Installation
 

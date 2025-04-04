@@ -17,12 +17,12 @@ User Directory is an Android application built using Jetpack Compose and Retrofi
 
 - **Language**: Kotlin
 - **UI Framework**: Jetpack Compose
-- **Networking**: Retrofit
+- **Networking**: Retrofit 
 - **State Management**: ViewModel + StateFlow
-
+- **Mock APIs** - JSONPlaceholder and ReqRes API
 ## Download APK
 
-
+[User Directory APK] (https://github.com/rameshwar-mishra/User_Directory_App/releases/tag/v1.0)
 
 ## Installation
 
